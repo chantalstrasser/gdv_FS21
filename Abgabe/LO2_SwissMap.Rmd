@@ -1,0 +1,33 @@
+---
+title: "LO2 Swiss Map"
+output: pdf_document
+---
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(RSwissMaps)
+```
+
+## Swiss Map
+
+```{r pressure, echo=FALSE}
+
+df <- read.csv('Todesfaelle_Kantone.csv', header=TRUE, sep=';')
+names(df)[1] <- "kanton"
+
+
+map_data <- can.template(2016) %>%
+  mutate(name = tolower(name)) %>%
+  inner_join(df, by = c('name' = 'kanton'))
+
+plot_TF_map <- function() {
+  can.plot(map_data$bfs_nr, map_data$proz, 2016,
+           title = 'Proportion of deaths in the cantonal population',
+           caption = 'year 2019',
+           legend_title = 'Proportion of deaths in percent'
+  )
+}
+plot_TF_map()
+```
+

@@ -1,0 +1,31 @@
+Krankheit;Kategorie;Farbe_test;Farbe
+Infektiöse Krankheiten;Infektiöse Krankheiten;#88AAEE;#68829E
+Tuberkulose;Infektiöse Krankheiten;#88AAEE;#68829E
+AIDS;Infektiöse Krankheiten;#88AAEE;#68829E
+Bösartige Tumoren;Bösartige Tumoren;#EE7744;#EB8A3E
+Magen;Bösartige Tumoren;#EE7744;#EB8A3E
+Dickdarm;Bösartige Tumoren;#EE7744;#EB8A3E
+Lunge;Bösartige Tumoren;#EE7744;#EB8A3E
+Brust;Bösartige Tumoren;#EE7744;#EB8A3E
+Prostata;Bösartige Tumoren;#EE7744;#EB8A3E
+Gebärmutterhals;Bösartige Tumoren;#EE7744;#EB8A3E
+Diabetes mellitus;Diabetes mellitus;#FAC864;#D09683
+Demenz;Demenz;#CC77EE;#8D230F
+Kreislaufsystem;Kreislaufsystem;#334488;#505160
+Herzkrankheiten  insgesamt;Kreislaufsystem;#334488;#505160
+Ischämische Herzkrankheiten;Kreislaufsystem;#334488;#505160
+Lungenembolie;Kreislaufsystem;#334488;#505160
+Zerebrovaskuläre Krankheiten;Kreislaufsystem;#334488;#505160
+Atmungsorgane insgesamt;Atmungsorgane insgesamt;green;#598234
+Grippe;Atmungsorgane insgesamt;green;#598234
+Pneumonie;Atmungsorgane insgesamt;green;#598234
+Chronische Bronchitis;Atmungsorgane insgesamt;green;#598234
+Asthma;Atmungsorgane insgesamt;green;#598234
+Alkoholische Leberzirrhose;Alkoholische Leberzirrhose;deeppink;#86766
+Harnorgane;Harnorgane;yellow;#C99E10
+Kongenitale Missbildungen;Kongenitale Missbildungen;seagreen;#AEBD38
+Perinatale Todesursachen;Perinatale Todesursachen;salmon;#FA6E59
+Unfälle insgesamt;Unfälle und Gewalteinwirkungen;black;#0F1B07
+Unfälle und Gewalteinwirkungen;Unfälle und Gewalteinwirkungen;black;#0F1B07
+Strassenverkehrsunfälle;Unfälle und Gewalteinwirkungen;black;#0F1B07
+Suizid;Unfälle und Gewalteinwirkungen;black;#0F1B07
